@@ -4,7 +4,7 @@
 }
 .links{
     display: flex;
-    background-color: #08443d;
+    background-color:  #08443d;
 }
 #logo img{
     width:60px;
@@ -630,6 +630,17 @@ color: #a6a6a6;
        #cont3{
         margin-left:-15em;
        }
+ }
+ /**********************TIME*************************/
+ .time p{
+    color:#3385ff;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 2em;
+    cursor: pointer;
+ }
+ .time p:hover{
+    color:#8800cc ;
  }
  /**************************FORM*********************************/
  .form{
