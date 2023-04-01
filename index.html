@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>PEPEA SCHOOL</title>
+</head>
+<body  style="background-color:#595959;">
+    <div class="links">
+        <div id="logo">
+           <img src="som/logo3.jpg.jpg" alt="">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about2.html">About</a></li>
+            <li><a href="services1.html">Services</a></li>
+            <li><a href="contactus1.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <!-------------------------------------slider-------------------->
+    <div class="w3-content w3-display-container" >
+        <img class="mySlides" src="som/g1.jpg" style="height:400px;">
+        <img class="mySlides" src="som/slider2.jpg" style="height:400px;">
+        <img class="mySlides" src="som/slider3.jpg" style="height:400px;">
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:60%">
+          <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+      </div>
+ <!-----------------------------articles------------------------------------------------------->
+ <section class="article-adverts">
+    <div class="main-articles">
+    <div class="articles1">
+        <div id="first">
+            <img src="som/library2.jpg" alt="">
+            <p>We believe that our libraries has all the resources that a student requires in his or her education career or even for knowledge development.</p>
+        </div>
+        <div id="second">
+            <img src="som/computerlab.jpg" alt="">
+            <p>Our school posses a big computer lab thus our students are able to learn about current technology for example cloud computing from our learned staff.</p> 
+        </div>
+
+    </div>
+    <div class="articles2">
+        <div id="third">
+            <img src="som/church.jpg" alt="">
+            <p>As a school we have taught our students that all success God must be included.</p>
+        </div>
+        <div id="fourth">
+            <img src="som/field.jpg" alt="">
+            <p> Exercises also it is a part of curriculum and thus students minds are refreshed.</p>
+        </div>
+
+    </div>
+</div>
+            
+<!--------------------adverts---------------------------------------------------------->
+<div class="adverts">
+    <div id="invites">
+        <p> Pepea school invites you for the following applications:</p>
+        <div id="intakes">
+            <div id="begin">
+                <h4>January Intake</h4>
+                <a href="#">Click to see more</a>
+            </div>
+            <div id="begin">
+                <h4>May Intake</h4>
+                <a href="#">Click to see more</a>
+            </div>
+            <div id="begin">
+                <h4>September Intake</h4>
+                <a href="#">Click to see more</a>
+            </div> 
+        </div>
+    </div>
+</div>
+        </section>
+<!---------------------------------Gallery---------------------->
+<section class="pictures">
+    <h3>OUR GALLERY</h3>
+    <div class="pict1">
+    <div class="pic1">
+      <img src="som/g1.jpg" alt="">
+    </div>
+    <div class="pic1">
+      <img src="som/g2.jpg" alt="">
+    </div>
+    <div class="pic1">
+        <img src="som/g3.jpg" alt="">
+    </div>
+    <div class="pic1">
+        <img src="som/g4.jpg" alt="">
+    </div>
+</div>
+    <div class="pict2">
+    <div class="pic1">
+        <img src="som/g5.jpg" alt="">
+    </div>
+    <div class="pic1">
+        <img src="som/g6.jpg" alt="">
+    </div>
+    <div class="pic1">
+        <img src="som/g7.jpg" alt="">
+    </div>
+    <div class="pic1">
+        <img src="som/g8.jpg" alt="">
+    </div>
+</div>
+</section>
+     <!-------------------------------FOOTER----------------------------------------------------->
+     <section class="footer">
+        <h3>Pepea  School</h3>
+    <div class="all-information">
+        <div class="about-about">
+            <h4>About Us</h4>
+            <p>We offer best knowledge to our students</p>
+            <p> Mail Us: <br>pepea.com</p> 
+            <p>Contact Us: 02024516845</p>
+        </div>
+        <div class="courses">
+            <h4>Our Courses</h4>
+            <p>Business related courses </p>
+            <p>IT related courses </p>
+            <p>Medical related courses </p>
+            <p>Education related courses , etc.</p>
+        </div>
+        <div class="hours-hours">
+            <h4>Library Opening Hours</h4>
+            <h5>Monday-Friday</h5>
+            <p>6:00Am-10:00Pm</p>
+            <h5>Saturday-Sunday</h5>
+            <p>9:00Am-8:00Pm</p>
+        </div>
+    </div>
+</section>
+<!-------------------------------------------COPYRIGHT---------------------------------------->
+<div class="copyright">
+    <p>Copyright&copyKemboiWeb.com</p>
+    <hr>
+    </div>
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function currentDiv(n) {
+          showDivs(slideIndex = n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-white", "");
+          }
+          x[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " w3-white";
+        }
+        </script>
+    
+</body>
+</html>
