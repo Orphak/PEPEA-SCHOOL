@@ -17,7 +17,7 @@
     display:flex; 
     padding-left:40%; 
     margin-top:20px;
-    font-family: elephant;
+    font-family:kaushan;
 }
 .links ul li{
    padding-left:5em;
@@ -102,11 +102,11 @@ ul li a:hover{
     
 }
 #lib-info p{
-    color: white;
+    color: #0d0d0d;
     padding-top: 1em;
     padding-left: 2em;
     font-size: 1em;
-    font-family: cursive;
+    font-family: kaushan;
 }
 @media screen and (max-width:600px){
 
@@ -175,15 +175,15 @@ ul li a:hover{
   margin-left: 4em;
     padding-top: 4em;
     font-size: 1.5em;
-    color: orange;   
+    color: 	 #4d004d;   
 }
 #new-students h3{
-    color: white;
+    color: #1a1a1a;
     font-size: 2em;
     padding-top:1em;      
 }
 #new-students p{
-    color: white;
+    color: #1a1a1a;
     padding-top: 1em; 
 }
 #stories{
@@ -219,7 +219,6 @@ ul li a:hover{
             
       } 
       #new-students h3{
-        color: white;
         font-size: 1.3em;
         padding-top:1em;      
     }
@@ -272,7 +271,7 @@ ul li a:hover{
     border:0px solid aqua;
     height:20em;
     width:20em;
-    background-color:black;
+    background-color:	 #4d004d;
     border-radius:5px;
     margin-top: 2em;
  }
@@ -633,7 +632,7 @@ color: #a6a6a6;
  }
  /**********************TIME*************************/
  .time p{
-    color:#3385ff;
+    color: #1a1aff;
     text-align: center;
     margin-top: 2em;
     font-size: 2em;
